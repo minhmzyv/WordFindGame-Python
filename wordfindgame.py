@@ -24,6 +24,7 @@ while lives > 0:
 
     if character_left == 0:
             print(name + "Siz Qazandınız...")
+            input("Çıxmaq Üçün Enter Düyməsini Sıxın...")
             break
     
 
@@ -36,3 +37,4 @@ while lives > 0:
             print(f"Sənin + {lives} + Canın Qaldı")
     if lives == 0:
             print(name + " Siz Uduzdunuz")
+            input("Çıxmaq Üçün Enter Düyməsini Sıxın...")
